@@ -1,14 +1,19 @@
 # Robotic Grasping
-Machine Learning Implementations in OpenAI Gym and PyBullet.
+Machine learning implementations using OpenAI Gym and PyBullet for robotic grasping.
 
-PyTorch tutorial example -> kuka_rl
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahyaret/kuka_rl/blob/master/kuka_rl.ipynb)
+## Deep Q Learning (DQN) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahyaret/kuka_rl/blob/master/kuka_rl.ipynb)
+* Discrete control problem is considered.
+* Based on [PyTorch tutorial example](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html).
+* [kuka_rl](https://github.com/mahyaret/kuka_rl/blob/master/kuka_rl.ipynb)
 
-Actor-Critic PPO (Proximal Policy Optimization) -> kuka_rl_2
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahyaret/kuka_rl/blob/master/kuka_rl_2.ipynb)
+
+## Proximal Policy Optimization (PPO) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahyaret/kuka_rl/blob/master/kuka_rl_2.ipynb)
+* Continuous control problem is considered.
+* [kuka_rl_2](https://github.com/mahyaret/kuka_rl/blob/master/kuka_rl_2.ipynb)
 
 <img src="img/kuka.gif" height="200">
 
+### Dependencies
 ```
 pip install pybullet
 pip install gym
